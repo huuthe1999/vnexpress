@@ -1,0 +1,41 @@
+.wrapper {
+	width: 100%;
+	// overflow-x: hidden;
+}
+.main-nav {
+	top: -1px;
+	// overflow-x: scroll;
+	// z-index: 9999;
+}
+.story {
+	padding-top: 20px;
+}
+
+.news {
+	position: relative;
+	margin-top: 20px;
+	padding-top: 20px;
+
+	&::before {
+		width: calc(100% - 30px);
+		background: #e5e5e5;
+		height: 1px;
+		position: absolute;
+		top: 0;
+		left: 15px;
+		content: '';
+	}
+}
+
+.post-cards {
+	border-top: 1px solid #bdbdbd;
+	margin-top: 15px;
+	padding-top: 15px;
+}
+.footer,
+.license {
+	border-top: 5px solid #e5e5e5;
+	padding: 20px 0;
+	font-size: 1.4rem;
+	margin-top: 15px;
+}

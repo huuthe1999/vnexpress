@@ -1,0 +1,9 @@
+HƯỚNG DẪN SỬ DỤNG
+
+1. Giải nén folder
+
+2. Import tất cả các file vào trong text editor bất kì ( Có thể sử dụng Visual Studio)
+
+3. Mở Terminal -> Gõ npm install
+
+4. Xong khi cài đặt các module thành công => Trong terminal gõ : npm start

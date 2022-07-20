@@ -1,0 +1,17 @@
+.leftPanel {
+	position: relative;
+	padding-right: 15px;
+
+	&::after {
+		content: '';
+		width: 1px;
+		height: 100%;
+		background: #e5e5e5;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+}
+.rightPanel {
+	padding-left: 15px;
+}

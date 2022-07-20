@@ -1,0 +1,25 @@
+.wrapper {
+	position: relative;
+	height: 32px;
+	line-height: 30px;
+	padding: 0 10px;
+	border: 1px solid #e5e5e5;
+	border-radius: 3px;
+	font-size: 1.4rem;
+	color: #757575;
+	display: flex;
+	align-items: center;
+
+	+ .wrapper {
+		margin-left: 15px;
+	}
+
+	&:hover {
+		color: #4f4f4f;
+		background: #f7f7f7;
+	}
+	& > svg {
+		margin-right: 5px;
+		fill: #bdbdbd;
+	}
+}

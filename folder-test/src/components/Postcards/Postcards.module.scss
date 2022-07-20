@@ -1,0 +1,41 @@
+.wrapper {
+	border-top: 1px solid #bdbdbd;
+	margin-top: 15px;
+	padding-top: 15px;
+}
+
+.list {
+	display: flex;
+	align-items: center;
+	position: relative;
+	font-size: 1.8rem;
+	line-height: 23px;
+	margin-bottom: 20px;
+	font-family: 'Merriweather', serif;
+	color: #222;
+	font-weight: bold;
+}
+
+.item {
+	// margin-left: 16px;
+	font-size: 1.3rem;
+	color: #4f4f4f;
+	line-height: 1.1538461538;
+	font-family: arial;
+	font-weight: 400;
+	margin-top: 5px;
+	cursor: pointer;
+
+	&:first-child {
+		line-height: inherit;
+		font-size: inherit;
+		font-weight: inherit;
+		border-bottom: 1px solid currentColor;
+	}
+	&:hover {
+		color: var(--color-primary);
+	}
+	& > a {
+		color: inherit;
+	}
+}
